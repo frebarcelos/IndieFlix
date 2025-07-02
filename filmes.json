@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "titulo": "Tarzan pelado com a mão no bolso",
+    "diretor": "Sai a Mala",
+    "ano_lancamento": "2025-07-01",
+    "genero": "documentario",
+    "duracao": "2:00"
+  },
+  {
+    "id": 2,
+    "titulo": "Tarzan pelado com a mão no bolso",
+    "diretor": "Sai a Mala",
+    "ano_lancamento": "2025-07-01",
+    "genero": "curta",
+    "duracao": "2:00"
+  },
+   {
+    "id": 2,
+    "titulo": "Tarzan pelado com a mão no bolso",
+    "diretor": "Sai a Mala",
+    "ano_lancamento": "2025-07-01",
+    "genero": "filme independente",
+    "duracao": "2:00"
+  },
+   {
+    "id": 2,
+    "titulo": "Tarzan pelado com a mão no bolso",
+    "diretor": "Sai a Mala",
+    "ano_lancamento": "2025-07-01",
+    "genero": "curta",
+    "duracao": "2:00"
+  }
+]
