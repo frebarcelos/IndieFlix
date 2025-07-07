@@ -1,30 +1,83 @@
 [
   {
+    "id": 1,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "ano_lancamento": "2025-07-01",
+    "data_lancamento": "2025-07-01",
     "genero": "documentario",
-    "duracao": "120"
+    "duracao": 120,
+    "nota_pessoal": 1
   },
   {
+    "id": 2,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "ano_lancamento": "2025-07-01",
+    "data_lancamento": "2025-07-01",
     "genero": "curta",
-    "duracao": "120"
+    "duracao": 120,
+    "nota_pessoal": 1
   },
-   {
+  {
+    "id": 3,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "ano_lancamento": "2025-07-01",
+    "data_lancamento": "2025-07-01",
     "genero": "filme independente",
-    "duracao": "120"
+    "duracao": 120,
+    "nota_pessoal": 1
   },
-   {
+  {
+    "id": 4,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "ano_lancamento": "2025-07-01",
+    "data_lancamento": "2025-07-01",
     "genero": "curta",
-    "duracao": "120"
+    "duracao": 120,
+    "nota_pessoal": 1
+  },
+  {
+    "id": 5,
+    "titulo": "A volta dos que nao foram",
+    "diretor": "Ken te perguntou",
+    "data_lancamento": "2025-07-07",
+    "genero": "curta",
+    "duracao": 120,
+    "nota_pessoal": 1
+  },
+  {
+    "id": 6,
+    "titulo": "Frederico",
+    "diretor": "Barcelos",
+    "data_lancamento": "1994-07-29",
+    "genero": "curta",
+    "duracao": 220,
+    "nota_pessoal": 1
+  },
+  {
+    "id": 7,
+    "titulo": "Teste 2",
+    "diretor": "Teste 2",
+    "data_lancamento": "2025-07-07",
+    "genero": "documentario",
+    "duracao": 350,
+    "nota_pessoal": 1
+  },
+  {
+    "id": 8,
+    "titulo": "teste 3",
+    "diretor": "teste 3",
+    "data_lancamento": "2025-07-07",
+    "genero": "curta",
+    "duracao": 220,
+    "nota_pessoal": 1
+  },
+  {
+    "id": 9,
+    "titulo": "teste4",
+    "diretor": "teste4",
+    "data_lancamento": "1993-06-12",
+    "genero": "curta",
+    "duracao": 220,
+    "nota_pessoal": 3
   }
 ]

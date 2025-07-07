@@ -4,8 +4,12 @@ from lapras import boca_aberta, boca_fechada
 
 def centralizar(texto):
     
-    largura = os.get_terminal_size().columns
-    return texto.center(largura)
+    linhas = texto.split('\n')
+    largura_terminal = os.get_terminal_size().columns
+    largura_bloco = max(len(linha) for linha in linhas)
+    margem_esquerda = (largura_terminal - largura_bloco) // 2
+
+    return '\n'.join(' ' * margem_esquerda + linha for linha in linhas)
 
 def input_centralizado(mensagem="", margem_perc=0.05):
     largura = os.get_terminal_size().columns
