@@ -1,14 +1,5 @@
 [
   {
-    "id": 1,
-    "titulo": "Tarzan pelado com a mão no bolso",
-    "diretor": "Sai a Mala",
-    "data_lancamento": "2025-07-01",
-    "genero": "documentario",
-    "duracao": 120,
-    "nota_pessoal": 1
-  },
-  {
     "id": 2,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
@@ -64,7 +55,7 @@
   },
   {
     "id": 8,
-    "titulo": "teste 3",
+    "titulo": "123 Testando",
     "diretor": "teste 3",
     "data_lancamento": "2025-07-07",
     "genero": "curta",
@@ -74,10 +65,37 @@
   {
     "id": 9,
     "titulo": "teste4",
-    "diretor": "teste4",
+    "diretor": "Casca de Bala",
     "data_lancamento": "1993-06-12",
     "genero": "curta",
     "duracao": 220,
     "nota_pessoal": 3
+  },
+  {
+    "id": 10,
+    "titulo": "Aranha cor de rosa",
+    "diretor": "Pantera cor de rosa",
+    "data_lancamento": "1994-07-29",
+    "genero": "curta",
+    "duracao": 3,
+    "nota_pessoal": 5
+  },
+  {
+    "id": 11,
+    "titulo": "Teste11",
+    "diretor": "teste11",
+    "data_lancamento": "2025-07-08",
+    "genero": "curta",
+    "duracao": 2340,
+    "nota_pessoal": 5
+  },
+  {
+    "id": 11,
+    "titulo": "Tarzan pelado com a mão no bolso",
+    "diretor": "Sai a Mala",
+    "data_lancamento": "2025-07-08",
+    "genero": "curta",
+    "duracao": 240,
+    "nota_pessoal": 4
   }
 ]
