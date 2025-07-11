@@ -1,8 +1,9 @@
 import time
 
-from animacao import centralizar,limpar_terminal
+from view.animacao import centralizar,limpar_terminal
 from catalogo import exibir_filmes,adicionar_filme,editar_filme,excluir_filme
 from funcutils import valida_opcoes
+from busca import buscar_filme
 
 escolhas_str = ["1","2","3","4"]
 
@@ -27,4 +28,6 @@ while(True):
         editar_filme()
     if escolha == 4:        
         excluir_filme()
+    if escolha ==5:
+        buscar_filme()
     

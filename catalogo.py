@@ -1,23 +1,23 @@
 import json, time, copy
 from datetime import datetime
-from animacao import centralizar, limpar_terminal,input_centralizado,falar_ascii
+from view.animacao import centralizar, limpar_terminal,input_centralizado,falar_ascii
 from funcutils import input_data_valida, input_duracao_valida, input_genero_valido,ajusta_data_banco,valida_opcoes,input_nota_pessoal_valida,ajusta_data_salvar,retorno_data_DDMMYYYY
 
 caminho_arquivo = 'filmes.json'
 
-def abrir_arquivo_leitura_filmes(exibir_filmes = True):
-    with open(caminho_arquivo, 'r', encoding='utf-8') as lista_filmes:
-            lista_filmes = json.load(lista_filmes)
+def abrir_arquivo_leitura_filmes(caminho_bd= 'filmes.json', exibir_filmes = True):
+    with open(caminho_bd, 'r', encoding='utf-8') as lista_filmes_bd:
+            lista_filmes = json.load(lista_filmes_bd)
             if exibir_filmes:
                 lista_filmes = ajusta_data_banco(lista_filmes)
                 lista_filmes.sort(key=lambda f: f['id'])                
             return lista_filmes
 
 
-def abrir_arquivo_escrita_filmes(filmes):
+def abrir_arquivo_escrita_filmes(filmes, caminho_bd= 'filmes.json'):
         
-    with open(caminho_arquivo, 'w', encoding='utf-8') as f:
-        json.dump(filmes, f, ensure_ascii=False, indent=2)
+    with open(caminho_bd, 'w', encoding='utf-8') as lista_filmes_bd:
+        json.dump(filmes, lista_filmes_bd, ensure_ascii=False, indent=2)
 
 
 def imprimir_tabela(lista): 
@@ -100,7 +100,7 @@ def exibir_filmes():
         if escolha == 1:
             while True:
                 limpar_terminal()
-                escolha_ordem = valida_opcoes(opcoes=["1","2","3","4","5","6","7","8","9"],mensagem="\n[1] Título (A - Z) \n[2] Título (Z - A) \n[3] Diretor \n[4] Data de lançamento ASC \n[5] Data de lançamento DESC \n[6] Duração ASC \n[7] Duração DESC\n[8] Nota Pessoal ASC\n[9] Nota Pessoal DESC", falar="Ordenar por:")
+                escolha_ordem = valida_opcoes(opcoes=["1","2","3","4","5","6","7","8","9"],mensagem="\n[1] Título (A - Z) \n[2] Título (Z - A) \n[3] Diretor(a) \n[4] Data de lançamento ASC \n[5] Data de lançamento DESC \n[6] Duração ASC \n[7] Duração DESC\n[8] Nota Pessoal ASC\n[9] Nota Pessoal DESC", falar="Ordenar por:")
                 ordenados = ", ordenados "
                 escolha_ordem = int(escolha_ordem)
                 if escolha_ordem == 1:

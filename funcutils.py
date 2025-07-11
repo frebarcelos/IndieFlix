@@ -1,6 +1,6 @@
 
 from datetime import datetime
-from animacao import centralizar, limpar_terminal, input_centralizado,falar_ascii
+from view.animacao import centralizar, limpar_terminal, input_centralizado,falar_ascii
 
 
 #Lista dos Generos de filme validos

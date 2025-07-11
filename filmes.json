@@ -1,14 +1,5 @@
 [
   {
-    "id": 2,
-    "titulo": "Tarzan pelado com a mão no bolso",
-    "diretor": "Sai a Mala",
-    "data_lancamento": "2025-07-01",
-    "genero": "curta",
-    "duracao": 120,
-    "nota_pessoal": 1
-  },
-  {
     "id": 3,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
@@ -97,5 +88,14 @@
     "genero": "curta",
     "duracao": 240,
     "nota_pessoal": 4
+  },
+  {
+    "id": 12,
+    "titulo": "Alicia de rosa",
+    "diretor": "Alicia",
+    "data_lancamento": "2025-07-08",
+    "genero": "documentario",
+    "duracao": 220,
+    "nota_pessoal": 5
   }
 ]
