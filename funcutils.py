@@ -7,20 +7,18 @@ from view.animacao import centralizar, limpar_terminal, input_centralizado,falar
 GENEROS_VALIDOS = ["documentario", "curta", "filme independente"]
 
 
-def input_data_valida(formatar_data = True):
-    # Solicita e valida a data no formato DD/MM/AAAA e retorna como YYYY-MM-DD.
+def input_data_valida(formatar_data = True):    
     while True:
         entrada = input_centralizado("Data de lançamento (DD/MM/AAAA): ").strip()
         try:
             data = datetime.strptime(entrada, "%d/%m/%Y")
             if(formatar_data):
-                return data.strftime("%Y-%m-%d")
+                return data.strftime("%d/%m/%Y")
             return data  
         except ValueError:
             print("⚠️  Data inválida. Use o formato DD/MM/AAAA (ex: 01/07/2025).")
 
-def input_genero_valido():
-    # Solicita e valida o gênero.
+def input_genero_valido():    
     generos = "[ "
     for genero in GENEROS_VALIDOS:
         if genero == GENEROS_VALIDOS[-1]:
@@ -34,8 +32,7 @@ def input_genero_valido():
             return entrada
         print("⚠️  Gênero inválido. Escolha um dos permitidos.")
 
-def input_duracao_valida():
-    # Solicita e valida a duração como número inteiro positivo.
+def input_duracao_valida():    
     while True:
         entrada = input_centralizado("Duração (em minutos): ").strip()
         if entrada.isdigit() and int(entrada) > 0:
@@ -68,13 +65,3 @@ def valida_opcoes(opcoes, mensagem="Digite uma opção:",falar=None):
                 limpar_terminal()
         else:
             return int(escolha)
-        
-def ajusta_data_banco(lista):
-    for item in lista:
-        item['data_lancamento'] = retorno_data_DDMMYYYY(item['data_lancamento'])
-    return lista
-
-def ajusta_data_salvar(lista):
-    for item in lista:
-        item['data_lancamento'] =  retorno_data_YYYYMMDD(item['data_lancamento'])
-    return lista

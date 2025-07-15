@@ -1,6 +1,6 @@
 import os
 import time
-from lapras import boca_aberta, boca_fechada
+from view.lapras import boca_aberta, boca_fechada
 
 def centralizar(texto):
     
@@ -38,7 +38,7 @@ def falar_ascii(fala: str, velocidade: float = 0.08):
         texto_em_progresso += letra
         limpar_terminal()
         print(centralizar_ascii(boca_aberta if boca else boca_fechada))
-    #print("\n")
+        print("\n")
         print(centralizar(f"🗣️ {texto_em_progresso}_"))  # Linha de fala
         boca = not boca
         time.sleep(velocidade)

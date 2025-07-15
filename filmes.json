@@ -3,7 +3,7 @@
     "id": 3,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "data_lancamento": "2025-07-01",
+    "data_lancamento": "2025-07-14",
     "genero": "filme independente",
     "duracao": 120,
     "nota_pessoal": 1
@@ -12,7 +12,7 @@
     "id": 4,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "data_lancamento": "2025-07-01",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 120,
     "nota_pessoal": 1
@@ -21,7 +21,7 @@
     "id": 5,
     "titulo": "A volta dos que nao foram",
     "diretor": "Ken te perguntou",
-    "data_lancamento": "2025-07-07",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 120,
     "nota_pessoal": 1
@@ -30,34 +30,43 @@
     "id": 6,
     "titulo": "Frederico",
     "diretor": "Barcelos",
-    "data_lancamento": "1994-07-29",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 220,
     "nota_pessoal": 1
   },
   {
     "id": 7,
-    "titulo": "Teste 2",
+    "titulo": "Teste 1234",
     "diretor": "Teste 2",
-    "data_lancamento": "2025-07-07",
+    "data_lancamento": "2025-07-14",
     "genero": "documentario",
     "duracao": 350,
     "nota_pessoal": 1
   },
   {
     "id": 8,
-    "titulo": "123 Testando",
+    "titulo": "12345 Testando",
     "diretor": "teste 3",
-    "data_lancamento": "2025-07-07",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 220,
     "nota_pessoal": 1
   },
   {
     "id": 9,
-    "titulo": "teste4",
+    "titulo": "teste5",
     "diretor": "Casca de Bala",
-    "data_lancamento": "1993-06-12",
+    "data_lancamento": "2025-07-14",
+    "genero": "curta",
+    "duracao": 220,
+    "nota_pessoal": 3
+  },
+  {
+    "id": 9,
+    "titulo": "teste5",
+    "diretor": "Casca de Bala",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 220,
     "nota_pessoal": 3
@@ -66,7 +75,7 @@
     "id": 10,
     "titulo": "Aranha cor de rosa",
     "diretor": "Pantera cor de rosa",
-    "data_lancamento": "1994-07-29",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 3,
     "nota_pessoal": 5
@@ -75,25 +84,52 @@
     "id": 11,
     "titulo": "Teste11",
     "diretor": "teste11",
-    "data_lancamento": "2025-07-08",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 2340,
     "nota_pessoal": 5
   },
   {
-    "id": 11,
+    "id": 12,
     "titulo": "Tarzan pelado com a mão no bolso",
     "diretor": "Sai a Mala",
-    "data_lancamento": "2025-07-08",
+    "data_lancamento": "2025-07-14",
     "genero": "curta",
     "duracao": 240,
     "nota_pessoal": 4
   },
   {
-    "id": 12,
+    "id": 13,
     "titulo": "Alicia de rosa",
     "diretor": "Alicia",
-    "data_lancamento": "2025-07-08",
+    "data_lancamento": "2025-07-14",
+    "genero": "documentario",
+    "duracao": 220,
+    "nota_pessoal": 5
+  },
+  {
+    "id": 14,
+    "titulo": "a volta dos que não foram",
+    "diretor": "Bruno",
+    "data_lancamento": "2025-07-14",
+    "genero": "curta",
+    "duracao": 200,
+    "nota_pessoal": 5
+  },
+  {
+    "id": 15,
+    "titulo": "Agora vai",
+    "diretor": "mesmo",
+    "data_lancamento": "2025-07-14",
+    "genero": "curta",
+    "duracao": 220,
+    "nota_pessoal": 5
+  },
+  {
+    "id": 16,
+    "titulo": "Alicia Rainha o resto nadinha",
+    "diretor": "Frederico Barcelos",
+    "data_lancamento": "2025-07-14",
     "genero": "documentario",
     "duracao": 220,
     "nota_pessoal": 5
