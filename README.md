@@ -12,21 +12,6 @@
 - 💾 Persistência dos dados em arquivo JSON (`filmes.json`)
 - 🎭 Animações em ASCII para tornar a experiência mais envolvente
 
-## 📁 Estrutura do Projeto
-
-IndieFlix/
-├── menu.py # Script principal com o menu interativo
-├── filmes.py # Classe Filme e persistência dos dados
-├── catalogo.py # Lógica para adicionar, editar, excluir e listar filmes
-├── busca.py # Funções de busca por filmes
-├── funcutils.py # Funções utilitárias (validação de opções)
-├── filmes.json # Base de dados local de filmes
-├── view/
-│ └── animacao.py # Funções de animação e estética no terminal
-
-bash
-Copiar
-Editar
 
 ## ▶️ Como Executar
 
