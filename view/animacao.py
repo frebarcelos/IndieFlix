@@ -27,9 +27,10 @@ def centralizar_ascii(arte):
     return '\n'.join(centralizar(linha) for linha in linhas)
 
 def limpar_terminal():
+    #verifica se o sistema é linux (nt) ou windows e limpa o terminal 
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def falar_ascii(fala: str, velocidade: float = 0.08):
+def falar_ascii(fala: str, velocidade: float = 0.05):
     
     texto_em_progresso = ""
     boca = True  

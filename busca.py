@@ -14,7 +14,7 @@ attribute_labels = {
 def buscar_filme():
     while True:
         limpar_terminal()
-        resposta = valida_opcoes(opcoes=['0','1','2'], mensagem="[0] Voltar [1] Busca Simples [2] Busca Avançada",falar="Vamos encontrarar um filme então, qual busca você gostaria de fazer ?")
+        resposta = valida_opcoes(opcoes=['0','1','2'], mensagem="[0] Voltar [1] Busca Simples [2] Busca Avançada",falar="Vamos encontrar um filme então, qual busca você gostaria de fazer ?")
         if resposta == 0:
             break
         if resposta == 1:
